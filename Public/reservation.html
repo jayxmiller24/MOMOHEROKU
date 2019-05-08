@@ -16,10 +16,9 @@
     <div class="container">
         <div class="jumbotron">
             <h1 class="display-4">Reservation!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-                to featured content or information.</p>
+            <p class="lead">Create a Reservation!</p>
             <hr class="my-4">
-            <p>Make your reservations</p>
+            <p>Make your reservations!</p>
             <div class="col-3"></div>
 
             <a class="btn btn-primary btn-lg center" id="tables" href="/tables" role="button">View Tables</a>
@@ -28,35 +27,38 @@
 
         </div>
 
-        <form>
+        <form id="reservation-form">
             <div class="form-group">
-                <input class="form-control" type="name" placeholder="Customer Name">
+                <input class="form-control" id="name" type="name" placeholder="Customer Name">
             </div>
             <div class="form-group">
-                <input class="form-control" type="number" placeholder="Phone Number">
+                <input class="form-control" id="phone" type="number" placeholder="Phone Number">
             </div>
             <div class="form-group">
 
 
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                     placeholder="Enter email">
 
             </div>
             <div class="form-group">
 
-                <input type="text" class="form-control" placeholder="User ID">
+                <input type="text" class="form-control" id="id" placeholder="User ID">
             </div>
         </form>
         <div class="row">
             <div class="col-2">
-                <button type="submit" class="btn btn-primary" id="submit" >Submit</button>
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
             </div>
 
         </div>
     </div>
 
-
-<script src="/resto.js"></script>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="/resto.js"></script>
 </body>
 
 </html>
