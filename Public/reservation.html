@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>reservations</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Reservation!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to featured content or information.</p>
+            <hr class="my-4">
+            <p>Make your reservations</p>
+            <div class="col-3"></div>
+
+            <a class="btn btn-primary btn-lg center" id="tables" href="/tables" role="button">View Tables</a>
+
+            <a class="btn btn-primary btn-lg center" id="home" href="/" role="button"><i class="fas fa-home"></i></a>
+
+        </div>
+
+        <form>
+            <div class="form-group">
+                <input class="form-control" type="name" placeholder="Customer Name">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="number" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+
+
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" class="form-control" placeholder="User ID">
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-2">
+                <button type="submit" class="btn btn-primary" id="submit" >Submit</button>
+            </div>
+
+        </div>
+    </div>
+
+
+<script src="/resto.js"></script>
+</body>
+
+</html>
